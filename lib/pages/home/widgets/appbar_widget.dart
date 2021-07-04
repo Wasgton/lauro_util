@@ -4,13 +4,13 @@ import 'package:lauro_util/core/core.dart';
 class AppBarWidget extends PreferredSize {
 
   AppBarWidget():super(
-    preferredSize: Size.fromHeight(250),
+    preferredSize: Size.fromHeight(195),
     child: Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Container(
-            padding: EdgeInsets.all(20),
-            margin: EdgeInsets.only(top: 39),
+            padding: EdgeInsets.all(15),
+            margin: EdgeInsets.only(top: 10),
             width: 250,
             child: Text(
               'Encontre onde realizar o seu serviços ',
@@ -23,6 +23,7 @@ class AppBarWidget extends PreferredSize {
             Container(
               padding: EdgeInsets.symmetric(horizontal: 20),
               width: 410,
+              height: 41,
               child: TextField(
                 decoration: InputDecoration(
                   labelText: 'Procure aqui por serviços ou secretarias',
